@@ -10,6 +10,7 @@ let imageSource2 = 'images/img' + imageNo2+ '.svg';
 player1.setAttribute('src', imageSource1);
 player2.setAttribute('src', imageSource2);
 
+
 //1=paper | 2 = scissors | 3 = stone
 if(imageNo1 === 1 && imageNo2 === 2){
     document.getElementById('heading').innerHTML = '🎊 Player 2 Wins 🎊' ;
